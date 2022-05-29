@@ -1,0 +1,15 @@
+name: EasterEgg
+author: alvin0319
+main: EasterEgg\EasterEggPlugin
+version: 1.0.0
+api: 4.0.0
+
+commands:
+  이스터에그:
+    description: 이스터에그 명령어입니다.
+    permission: easteregg.command
+    aliases: [ "easteregg" ]
+
+permissions:
+  easteregg.command:
+    default: op
